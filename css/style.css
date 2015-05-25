@@ -1,0 +1,101 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background: #E9F0F4;
+	display: table;
+}
+
+.container {
+	vertical-align:middle;
+	display: table-cell;
+}
+
+.wrapper {
+	width: 400px;
+	background: #FFFFFF url("/img/vertical_lines_r.png") repeat-y 40px;
+	border: 1px solid #DBDCDC;
+}
+
+.header_list {
+	height: 30px;
+	font-size: 24px;
+	color: whitesmoke;
+	padding: 5px;
+	border-bottom: 1px solid #DBDCDC;
+	background: #2E3641 url("/img/vertical_lines_h.png") repeat-y 40px;
+}
+
+.header_list span {
+	margin-left: 40px;
+	padding-left: 5px;
+}
+
+.list {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.list li {
+	position: relative;
+	font-size: 16px;
+	border-bottom: 1px solid #DBDCDC;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.list li label {
+	display: block;
+	padding: 5px 40px 5px 5px;
+	line-height: 1.2;
+}
+
+.check {
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.destroy {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 5px;
+	bottom: 0;
+	width: 15px;
+	height: 15px;
+	margin: auto;
+}
+
+.add_task {
+	padding-top: 10px;
+}
+
+.add_task input[type=image] {
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	margin-left: 13px;
+	margin-right: 20px;
+}
+
+input[type=text] {
+	width: 340px;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+input:-moz-placeholder {
+	font-style: italic;
+}
